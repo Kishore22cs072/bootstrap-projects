@@ -1,0 +1,339 @@
+  <html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <script src="https://kit.fontawesome.com/14273d579a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+  <style>
+    .card-body{
+      background-color: black;
+    }
+    .container1{
+      background-color:black;
+    }
+    .offcanvas-title{
+      position:absolute;
+      top:60px;
+      right: 600px;
+    }
+    .btn-close{
+      position:absolute;
+      top:10px;
+      right:10px;
+    }
+
+     .nav-link{
+       background-color:white;
+       transition: background-color 0.3s ease;
+    }
+    
+    .nav-link:hover{
+      background-color:green;
+    }
+    
+   
+
+    
+    
+   
+    
+  </style>
+
+ </head>
+    <body class="bg-success">
+        <div class="container container-spacing"> 
+          <a class="navbar-brand text-uppercase fw-bold ">
+            <p class="text-center my-3 text-light">𝙉𝘼𝙏𝙐𝙍𝙀 𝙎𝙃𝙊𝙋</p>
+          </a>
+        </div>
+           <nav class="nav navbar-expand">
+             <div class="container bg-light  container-spacing">
+              <ul class="navbar-nav">
+                <li class="nav-interactive fw-bold px-5">
+                  <a class="nav-link text-dark" href="#">HOME</a>
+                </li>
+                
+                 <li class="nav-item px-5 fw-bold">
+                  <a class="nav-link text-dark" href="#">SHOPPING</a>
+                </li>
+
+                  <li class="nav-item1 px-5 fw-bold">
+                  <a class="nav-link text-dark" href="#">PRODUCTS</a>
+                </li>
+
+                   <li class="nav-item2  px-5   fw-bold">
+                  <a class="nav-link text-dark" href="#">OFFERS</a>
+                </li>
+
+                    <li class="nav-item3  px-5   fw-bold">
+                  <a class="nav-link text-dark" href="#">ABOUT-US</a>
+                </li>
+
+                    <li class="nav-item3  px-5   fw-bold">
+                  <a class="nav-link text-dark" href="#">REPORT</a>
+                </li>
+
+
+
+              </ul>
+           </nav>
+         </div> 
+ 
+        <div class="container"> 
+  <div class="row">
+    <div class="col"> 
+      <a class="d-block">
+        <img src="projimg2.jpg" class="img-fluid w-100" alt="img"> 
+          <div class="position-absolute top-50 start-50 translate-middle"> <!-- Absolute positioning for text -->
+          <h2 class="text-light">"Nature's harvest, ripe for the taking. Freshness delivered to your door, one bite at a time."</h2>
+    </div>
+  </div>
+</div>
+    
+   
+   <div class="container">
+      <div class="row text-center py-5 text-light">
+       <h6 class="fw-bold text-light">𝙊𝙐𝙍 𝙋𝙍𝙊𝘿𝙐𝘾𝙏𝙎</h6>
+       </div>
+       <div class="col">
+        <div class="card d-flex"> 
+          <img src="veg.jpg" class="card-img-top" alt="fresh-vegetables">
+        <div class="card-body">
+          <h5 class="card-title text-light "> VEGETABLES </h5>
+          <p class="card-text fw-bold text-success">we have all new fresh vegetables</p>
+         
+         <a class="btn btn-success my-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">OFFERS</a>
+         
+          <div class="offcanvas offcanvas-bottom h-100 bg-success" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+              <div class="offcanvas-header">
+                    <h5 class="offcanvas-title text-light fw-bold" id="offcanvasBottomLabel">OFFERS</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+            
+            
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <img src="imgboot4.jpg" class="image-fluid w-100 h-100" alt="Slide 1">
+                      <p class="fw-bold text-center my-3">WE HAVE 2KG OF FRESH CARROT FOR $2</p>
+                  </div>
+                  <div class="carousel-item" id="image-resize">
+                      <img src="imgboot5.jpg" class="image-fluid w-100 h-100" alt="Slide 2">
+                      <p class="fw-bold text-center my-3">WE HAVE FRESH oranges FOR $6</p>
+                  </div>
+                  <div class="carousel-item">
+                      <img src="imgboot7.jpg" class="img-fluid w-100 h-100" alt="Slide 3">
+                      <p class="fw-bold text-center my-3">WE HAVE ALL NEW FRESH BRINJAL FOR $2</p>
+                  </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+                  
+                 
+                  <div class="text-center">
+                  <a class="btn btn-primary" type="button"  >BUY</a>
+                  </div>
+
+
+     
+              </div>
+          </div>
+          
+          
+          
+          
+          
+        </div>
+       </div> 
+      </div>
+     
+
+
+    
+    <br>
+    <div class="col">
+      <div class="card">
+        <img src="fruit.jpg" alt="fresh-fruits">
+       <div class="card-body">
+        <h5 class="card-title text-light">FRUITS</h5>
+        <p class="card-text text-success">we have all new healthy fresh fruits</p>
+        <a class="btn btn-success my-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom1" aria-controls="offcanvasBottom">OFFERS</a>
+          
+          
+         
+          <div class="offcanvas offcanvas-bottom h-100 bg-success" tabindex="-1" id="offcanvasBottom1" aria-labelledby="offcanvasBottomLabel">
+              <div class="offcanvas-header">
+                    <h5 class="offcanvas-title text-light fw-bold" id="offcanvasBottomLabel">OFFERS</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+            
+            
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                       
+                      <img src="img04.jpg" class="image-fluid1 w-100 h-100" alt="Slide 1">
+                      <p class="fw-bold text-center my-3">WE HAVE 2KG OF FRESH APPLES FOR $5</p>
+                  </div>
+                  <div class="carousel-item" id="image-resize">
+                      <img src="img06.jpg" class="image-fluid w-100 h-100" alt="Slide 2">
+                      <p class="fw-bold text-center my-3">WE HAVE FRESH ORANGES FOR $3</p>
+                  </div>
+                  <div class="carousel-item">
+                      <img src="img07.jpg" class="img-fluid w-100 h-100" alt="Slide 3">
+                      <p class="fw-bold text-center my-3">WE HAVE ALL NEW FRESH BANANA FOR $2</p>
+                  </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+                  
+                 
+                  <div class="text-center">
+                  <a class="btn btn-primary" type="button"  >BUY</a>
+                  </div>
+
+
+     
+              </div>
+          </div>
+
+          
+          
+          
+
+       </div>
+      </div>
+    </div>
+
+    <br>
+    <div class="col">
+      <div class="card">
+        <img src="greens2.jpg" alt="fresh-greens"> 
+        <div class="card-body">
+          <h5 class="card-title text-light">GREENS</h5>
+          <p class="card-text text-success">we have all new fresh and healthy greens</p>
+          
+          <a class="btn btn-success my-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom2" aria-controls="offcanvasBottom">OFFERS</a>
+          
+          
+         
+          <div class="offcanvas offcanvas-bottom h-100 bg-success" tabindex="-1" id="offcanvasBottom2" aria-labelledby="offcanvasBottomLabel">
+              <div class="offcanvas-header">
+                    <h5 class="offcanvas-title text-light fw-bold" id="offcanvasBottomLabel">OFFERS</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+            
+            
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                       
+                      <img src="img08.jpg" class="image-fluid1 w-100 h-100" alt="Slide 1">
+                      <p class="fw-bold text-center my-3">fresh spinach $3</p>
+                  </div>
+                  <div class="carousel-item" id="image-resize">
+                      <img src="img09.jpg" class="image-fluid w-100 h-100" alt="Slide 2">
+                      <p class="fw-bold text-center my-3">broccoli raab $4</p>
+                  </div>
+                  <div class="carousel-item">
+                      <img src="img10.jpg" class="img-fluid w-100 h-100" alt="Slide 3">
+                      <p class="fw-bold text-center my-3"> Mustard greens $2</p>
+                  </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+                  
+                 
+                  <div class="text-center">
+                  <a class="btn btn-primary" type="button"  >BUY</a>
+                  </div>
+
+
+     
+              </div>
+          </div>
+
+
+
+
+        </div>
+      </div>
+    </div>
+
+<br>
+<br>
+<br>
+<div class="container1">
+  <div class="row">
+   <div class="navbar navbar-nav ">
+      <div class= "ul d-flex">
+      <li class="list-inline-item text-start text-light flex-grow-1  fw-bold mx-5 p-4 "> <span class="bi bi-lg bi-facebook"></span></li>
+        <li class="list-inline-item text-center text-light flex-grow-1  fw-bold mx-5 p-4"> <i class="bi bi-instagram"></i></li>
+          <li class="list-inline-item text-end text-light flex-grow-1  fw-bold mx-5 p-4"> <i class="bi bi-whatsapp"></i></li>
+      </div>
+     </div>
+    </div>
+          <div class="row">
+             <div class="col">
+               <p class="text-center text-light  my-5 fw-bold">WHATSAPGROUP-LINK:<span class="text-success"><a class="link href="#">"www.natureshopwhatsap.er"</a></link></span></p>
+             </div>
+           </div>
+
+           <div class="row ">
+            <div class="col">
+              <p class="text-center text-white">copyright@2024;Designed by kishore</p>
+            </div>
+           </div>
+</div>
+      
+      
+      
+
+
+
+
+    
+
+   
+       
+     
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+
+    </body>
+      
+</html>	
+
+            
+    
+      
